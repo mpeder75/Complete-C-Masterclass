@@ -25,6 +25,17 @@ foreach (int k in nums)
 // bruge foreach uden counter
 foreach (int x in nums)
 {
-    Console.WriteLine();
+    Console.WriteLine($"looping through array " + x);
 }
 
+
+
+// Exercise
+// Create a array with 5 friends
+// loop through array and greet every friend
+string[] myFriends = { "Anders", "Simon", "Mikkel", "Rune", "Morten" };
+
+foreach(var name in myFriends)
+{
+    Console.WriteLine($"Hello {name} my friend");
+}
