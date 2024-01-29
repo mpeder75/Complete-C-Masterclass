@@ -3,6 +3,10 @@
 //! element er en værdi der opbevares i et specifikt array
 
 
+//     index           0   1   2   3
+//     int[] array = { 10, 20, 30, 40 };
+
+
 // declare & initialize int array med længde 5 (alle indexes har værdien 0)
 int[] grades = new int[5];
 
