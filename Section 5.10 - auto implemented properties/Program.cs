@@ -1,4 +1,4 @@
-﻿using Section_5._10___auto_implemented_properties;
+﻿ using Section_5._10___auto_implemented_properties;
 
 Car myCar = new Car();
 

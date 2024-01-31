@@ -43,6 +43,10 @@ For at navigere tilbage - > ctrl+-
 //! constructor
 // ctor
 
+//! For at 'scrolle' igenne overlaoded methods for ex. console.Writeline
+// Stå i () og tryk på ctrl + shift + space -> nu kan pil op/pil ned bruges
+
+
 /*
 Useful shortcuts
 Visual Studio has a vast number of shortcuts that can be useful for C# developers to increase productivity. Here are some of them:
