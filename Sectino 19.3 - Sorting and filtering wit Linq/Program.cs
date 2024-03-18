@@ -84,8 +84,7 @@ class Universitymanager
     // LINQ - fin alle students fra Oxford - JOIN 2 tabeller
     public void AllStudentsFromOxford()
     {
-        // Her bruges foreign key in Student, så der kan søges efter UniversityId = 2 (Oxford) 
-
+        // Her bruges foreign key in Student, så der kan søges efter UniversityId = 2 (Oxford)
         IEnumerable<Student> oxfStudent =
             from student in students join university in universities on student.UniversityId equals university.Id where university.Name == "Oxford" select student;
 

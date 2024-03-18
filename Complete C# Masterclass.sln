@@ -165,11 +165,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 11.5 - lambda exerc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 19 - Linq", "Section 19 - Linq", "{C81985C2-293D-41F2-8366-F117B0B6A4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 19.1 - Linq intro", "Section 18.1 - Linq intro\Section 19.1 - Linq intro.csproj", "{3C54B06F-2C50-420E-A7D1-C3AFC8F31A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 19.1 - Linq intro", "Section 18.1 - Linq intro\Section 19.1 - Linq intro.csproj", "{3C54B06F-2C50-420E-A7D1-C3AFC8F31A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 19.2 - Linq with List", "Section 19 .2 - Linq\Section 19.2 - Linq with List.csproj", "{9A71CC63-2948-47FF-A34B-562ED15989F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 19.2 - Linq with List", "Section 19 .2 - Linq\Section 19.2 - Linq with List.csproj", "{9A71CC63-2948-47FF-A34B-562ED15989F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 19.3 - Sorting and filtering wit Linq", "Sectino 19.3 - Sorting and filtering wit Linq\Section 19.3 - Sorting and filtering wit Linq.csproj", "{BD8DCE7B-D187-44E9-97B9-BB2E114AFD7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 19.3 - Sorting and filtering wit Linq", "Sectino 19.3 - Sorting and filtering wit Linq\Section 19.3 - Sorting and filtering wit Linq.csproj", "{BD8DCE7B-D187-44E9-97B9-BB2E114AFD7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 9 - Inheritance, Interface", "Section 9 - Inheritance, Interface", "{8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 9.1 - Intro Inheritance", "Section 9.1 - Intro inheritance\Section 9.1 - Intro Inheritance.csproj", "{7726E8DA-55A7-440D-9CAB-8435AF5E45E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 9.5 - Intro Interfaces", "Section 9.5 - Intro Interfaces\Section 9.5 - Intro Interfaces.csproj", "{92E87378-2F2B-486A-9E53-E13DF661D722}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 9.6 - Lav eget interface", "Section 9.6 - Lav eget interface\Section 9.6 - Lav eget interface.csproj", "{8289C448-70E8-42D5-94B0-E975CDC2A768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +485,18 @@ Global
 		{BD8DCE7B-D187-44E9-97B9-BB2E114AFD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD8DCE7B-D187-44E9-97B9-BB2E114AFD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8DCE7B-D187-44E9-97B9-BB2E114AFD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7726E8DA-55A7-440D-9CAB-8435AF5E45E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7726E8DA-55A7-440D-9CAB-8435AF5E45E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7726E8DA-55A7-440D-9CAB-8435AF5E45E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7726E8DA-55A7-440D-9CAB-8435AF5E45E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E87378-2F2B-486A-9E53-E13DF661D722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E87378-2F2B-486A-9E53-E13DF661D722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E87378-2F2B-486A-9E53-E13DF661D722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E87378-2F2B-486A-9E53-E13DF661D722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8289C448-70E8-42D5-94B0-E975CDC2A768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8289C448-70E8-42D5-94B0-E975CDC2A768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8289C448-70E8-42D5-94B0-E975CDC2A768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8289C448-70E8-42D5-94B0-E975CDC2A768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -557,6 +577,9 @@ Global
 		{3C54B06F-2C50-420E-A7D1-C3AFC8F31A2A} = {C81985C2-293D-41F2-8366-F117B0B6A4E6}
 		{9A71CC63-2948-47FF-A34B-562ED15989F0} = {C81985C2-293D-41F2-8366-F117B0B6A4E6}
 		{BD8DCE7B-D187-44E9-97B9-BB2E114AFD7E} = {C81985C2-293D-41F2-8366-F117B0B6A4E6}
+		{7726E8DA-55A7-440D-9CAB-8435AF5E45E8} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
+		{92E87378-2F2B-486A-9E53-E13DF661D722} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
+		{8289C448-70E8-42D5-94B0-E975CDC2A768} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0BD9542-BB36-4302-9E6D-D851C4A2C6C7}
