@@ -1,14 +1,16 @@
 ﻿namespace Section_5._10___auto_implemented_properties
-{    internal class Car
+{
+    internal class Car
     {
         private string _name;
         private int _hp;
         private string _color;
+        //! (ABSTRACTION) NÅR en property deklareres SKABER compiler en SKJULT private variabel ex. _maxSpeed; 
+        //! og det er DENNE private variabel, property bruger sin get og set 
 
-        // auto implemented property
+        // auto implemented property - der benytter implicit backin field
         public int MaxSpeed { get; set; }
 
-        // properties - shortcut prop
         public string Name
         {
             get { return _name; }   // get accessor
@@ -25,7 +27,6 @@
             set { _color = value; }
         }
 
-        // constructors
         public Car()
         {
             _name = "Car";
@@ -50,7 +51,6 @@
             Drive();
         }
 
-        // methods
         public void Drive()
         {
             Console.WriteLine($"{_name} is driving");
@@ -63,7 +63,6 @@
         {
             Console.WriteLine($"Name of car: {this._name} \nHp of {this._name}: {this._hp}\nColor is {_color}\n ");
         }
-
     }
 }
 

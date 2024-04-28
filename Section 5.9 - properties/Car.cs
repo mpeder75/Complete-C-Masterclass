@@ -14,11 +14,11 @@ namespace Section_5._9___properties
         private int _hp;
         private string _color;
 
-        // properties - shortcut prop
+        // property der håndtere get og set for variablen _name 
         public string Name
         {
-            get { return _name; }   // get accessor
-            set { _name = value; }  // set accesssor
+            get { return _name; }   // get returnere _name
+            set { _name = value; }  // set når man udefra skal sette -name gøres det igennem Name prop's set method
         }
         public int Hp
         {
@@ -30,7 +30,6 @@ namespace Section_5._9___properties
             get { return _color; }
             set { _color = value; }
         }
-
 
         // constructors
         public Car()

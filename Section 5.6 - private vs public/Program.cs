@@ -1,12 +1,12 @@
 ﻿using Section_5._6___private_vs_public;
 
-// Encapsulation: Når man gør instansvaroiabler PRIVATE
+//! Encapsulation: Når man gør instansvaroiabler og/eller methods PRIVATE
 // encapusulation gør at man ikke kan tilgå visse dele af et system,
-// men man skal gøre det igennem methods som getters og setters
+// men man skal gøre det igennem methods som getters og setters udefra
 
-// man kan ogsø gøre m ethods private, hvilket betyder de iikke kan tilgåes udefra
-// HVIS man gerne vil have sine methods private i en class, kan man blot køre methods i cxonstructor
-// Så køre private methods hver gang objektet istancieres
+// Man kan også gøre methods private, hvilket betyder de ikke kan tilgåes udefra
+// HVIS man gerne vil have sine methods private i en class, kan man blot køre methods i constructor
+// Så køres private methods hver gang objektet istancieres
 
 Car myCar = new Car();
 

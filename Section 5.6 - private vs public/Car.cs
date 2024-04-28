@@ -2,8 +2,8 @@
 {
     internal class Car
     {
-        public string _name;
-        private int _hp;
+        public string _name;  // public, man kan sætte _name i program.cs
+        private int _hp;      // private, man kan IKKE sætte -hp i program.cs - kræver en set method
         private string _color;
 
         public Car()
@@ -27,10 +27,10 @@
             this._name = name;
             this._hp = hp;
             this._color = color;
-            Drive();
+            Drive(); // private method køres fra constructor, Drive() kaldes hver gang et Car objekt istancieres
         }
 
-        // prvivate method - hvis objekter skal bruge denne metode, skal den køres fra constructor
+        // private method - hvis objekter skal bruge denne metode, skal den køres fra constructor
         private void Drive()
         {
             Console.WriteLine($"{_name} is driving");

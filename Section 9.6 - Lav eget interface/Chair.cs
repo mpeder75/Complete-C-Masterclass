@@ -19,7 +19,9 @@ namespace Session_9._6___Lav_eget_interface
 
         public void Destroy()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"The Color {Color} chair was destroyed");
+            Console.WriteLine($"Playing destruction sound {DestructionSound}");
+            Console.WriteLine("Spawning chari parts");
         }
     }
 }

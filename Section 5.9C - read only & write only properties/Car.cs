@@ -15,7 +15,7 @@
         // Read only property: opsæt man ikke kan sette maxspeed (set slettes)
         public int MaxSpeed { get; }
 
-        // Write only: opsæt man ikke kan sette maxspeed (get slettes)
+        // Write only property: opsæt man ikke kan sette maxspeed (get slettes)
         public int Weight { 
             set
             {

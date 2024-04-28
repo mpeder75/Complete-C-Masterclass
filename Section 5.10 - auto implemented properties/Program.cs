@@ -1,14 +1,12 @@
-﻿ using Section_5._10___auto_implemented_properties;
+﻿using Section_5._10___auto_implemented_properties;
+
 
 Car myCar = new Car();
 
-myCar.Name = "MyAudiA3";
-myCar.Hp = 350;
-myCar.Color = "Racing red";
+// Her bruges set method fra Maxspeed på myCar objektet til at SETTE MaxSpeed til at være 180
+myCar.MaxSpeed = 180;
 
-myCar.MaxSpeed = 210;
-Console.WriteLine("Ma speed is: " + myCar.MaxSpeed);
-
-
+// her bruges get method fra Maxspeed til at få værdien på Maxspeed
+Console.WriteLine(myCar.MaxSpeed);
 
 

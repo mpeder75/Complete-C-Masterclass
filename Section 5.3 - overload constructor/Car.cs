@@ -16,14 +16,14 @@ internal class Car
         _hp = 0;
         _color = "red";
     }
-    // overloaded constructor
+    // overloaded constructor 1
     public Car(String name, string color = "Dark blue")
     {
         _name = name;
         _hp = 0;
         _color = "red";
     }
-    // overloaded constructor
+    // overloaded constructor 2
     public Car(string name, int hp, string color)
     {
         this._name = name;
