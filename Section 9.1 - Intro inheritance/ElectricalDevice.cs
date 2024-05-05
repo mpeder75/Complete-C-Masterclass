@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Section_9._1___Intro_inheritance
 {
+    // Base class 
     public class ElectricalDevice
     {
         public bool IsOn { get; set; }
@@ -13,18 +14,13 @@ namespace Section_9._1___Intro_inheritance
 
         public ElectricalDevice(bool isOn, string brand)
         {
-            IsOn = isOn;
-            Brand = brand;
+            this.IsOn = isOn;
+            this.Brand = brand;
         }
 
-        public void SwitchOn()
-        {
-            IsOn = true;
-        }
-
-        public void SwitchOff()
-        {
-            IsOn = false;
-        }
+        public void SwitchOn() => IsOn = true;
+        
+        public void SwitchOff() => IsOn = false;
     }
 }
+
