@@ -1,24 +1,12 @@
 ﻿using Section_5._2___constructor;
 
-Car audi = new Car("Audi A4", 450, "White");
-Car bmw = new Car("BMW A5", 355, "Black");
+Car mercedes = new Car("Mercedes","C220", "Black", 220);
+Car audi = new Car("Audi", "A6", "Blue", 250);
 
+mercedes.Details();
 audi.Details();
-bmw.Details();
 
-audi.Drive();
-bmw.Drive();
+mercedes.Stop();
+audi.Stop();
 
-Console.WriteLine("Press 1 to stop car");
 
-string userInput = Console.ReadLine();
-
-if (userInput == "1")
-{
-    audi.Stop();
-    bmw.Stop();
-}
-else
-{
-    Console.WriteLine("Cars drives indefinetly");
-}

@@ -2,22 +2,20 @@
 {
     internal class Car
     {
-        // constructor - shortcut (ctor)
-        // En constructor kaldes automatisk når et objekt af samme type som class istancieres
+        //Constructor
         public Car()
         {
-            Console.WriteLine("Car was created");
+            Console.WriteLine("Car object was created");
         }
 
-        // access modifier angives til public, så den kan tilgåes udefra class
-        public void Drive()
+        public void Drive() 
         {
             Console.WriteLine("Car is driving");
         }
 
-        public void Stop()
+        public void Break()
         {
-            Console.WriteLine("Car Stopped!");
+            Console.WriteLine("Car is breaking");
         }
     }
 }

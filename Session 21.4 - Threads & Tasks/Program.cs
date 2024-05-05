@@ -22,13 +22,10 @@ if (thread1.IsAlive)
     Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} was completed");
 }
 
-
 Console.WriteLine("Main thread ended");
 
-
 void Thread1Function()
-{
-   
+{   
     Console.WriteLine($"Thread1function started");
     Thread.Sleep(9000);
 }
@@ -37,7 +34,6 @@ void Thread2Function()
 {
     Console.WriteLine($"Thread2function started");
 }
-
 
 /* 
 Måden der compiles:
