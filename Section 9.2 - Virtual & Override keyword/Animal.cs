@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Virtual keyword gør at classes der nedarver fra Animal
+// kan Override den, og lave deres egen logik
+
 namespace Section_9._2___Virtual___Override_keyword
 {
     internal class Animal
     {
-        // Name har encapsulated setter(private) man kan ikke sætte variabel udefra class 
-        public string Name { get; private set; }
+        public string Name { get; private set; } // encapsulate sétter
         public int Age { get; set; }
         public bool IsHungry { get; set; }
 
@@ -20,16 +22,15 @@ namespace Section_9._2___Virtual___Override_keyword
             IsHungry = true;
         }
 
-        // virtual gør at classes der nedarver, fra Animal kan override metode
+        // virtual gør at classes der nedarver kan override metode
         public virtual void MakeSound()
         {
 
         }
 
-        // virtusl class med logik, som classses der nedarver fra blot kan override
+        // virtusl class med logik, classes der nedarver kan blot override
         public virtual void Eat()
         {
-
             if (IsHungry) 
             {
                 Console.WriteLine($"{Name} is eating");

@@ -11,13 +11,13 @@ namespace Section_9._2___Virtual___Override_keyword
     {
         public bool IsHappy { get; set; }
 
-        // constructor fra base class bruges til at initalizere variabler(Polymorfi)
+        // Polymorfi
+        // : base= constructor i base class bruges til at initalizere variabler fra base class
         public Dog(string name, int age, bool isHungry) : base(name, age, isHungry)
         {
             IsHappy = true;
         }
 
-        // her overrides Eat metoden fra Animal class der nedarves fra
         public override void Eat()
         {
             // hvis man vil bruge funktionaliteten der er i Animal class bruges:
@@ -41,7 +41,8 @@ namespace Section_9._2___Virtual___Override_keyword
 
         public override string ToString()
         {
-            return base.ToString(); // Polymorfi (vi genbruger kode fra Animal class og køre kode der )
+            // Polymorfi (vi genbruger kode fra Animal class og køre kode der )
+            return base.ToString(); 
         }
     }
 }

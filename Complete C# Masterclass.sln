@@ -193,7 +193,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 21.3 - Multiple Thr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 21.4 - Tasks, Join, isAlive", "Session 21.4 - Threads & Tasks\Session 21.4 - Tasks, Join, isAlive.csproj", "{32334968-FAAE-45BF-A863-3DCE8EF28872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 9.2 - Inheritance, Virtual, Override keyword", "Section 9.2 - Virtual & Override keyword\Section 9.2 - Inheritance, Virtual, Override keyword.csproj", "{409D73E9-1838-4141-B60B-CCB461F41E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 9.2 - Inheritance, Virtual, Override keyword", "Section 9.2 - Virtual & Override keyword\Section 9.2 - Inheritance, Virtual, Override keyword.csproj", "{409D73E9-1838-4141-B60B-CCB461F41E01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section 9.7 - IEnumerable & IEnumerator", "Section 9.7 - IEnumerable\Section 9.7 - IEnumerable & IEnumerator.csproj", "{68AD13A4-AACF-4A9B-BDD3-893CE2248BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 9.8 - IEnumerable Eksempel 1", "Section 9.8 - IEnumerable Eksempler\Section 9.8 - IEnumerable Eksempel 1.csproj", "{2EDBABF5-0D8F-415A-95F7-484F8FC0FCAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section 9.9 - IEnumerable Eksempel 2", "Section 9.9 - IEnumerable Eksempel 2\Section 9.9 - IEnumerable Eksempel 2.csproj", "{F688F128-24A2-4E14-9C25-6C1E18F53069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -537,6 +543,18 @@ Global
 		{409D73E9-1838-4141-B60B-CCB461F41E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{409D73E9-1838-4141-B60B-CCB461F41E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{409D73E9-1838-4141-B60B-CCB461F41E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AD13A4-AACF-4A9B-BDD3-893CE2248BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AD13A4-AACF-4A9B-BDD3-893CE2248BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AD13A4-AACF-4A9B-BDD3-893CE2248BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AD13A4-AACF-4A9B-BDD3-893CE2248BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDBABF5-0D8F-415A-95F7-484F8FC0FCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDBABF5-0D8F-415A-95F7-484F8FC0FCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDBABF5-0D8F-415A-95F7-484F8FC0FCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDBABF5-0D8F-415A-95F7-484F8FC0FCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F688F128-24A2-4E14-9C25-6C1E18F53069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F688F128-24A2-4E14-9C25-6C1E18F53069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F688F128-24A2-4E14-9C25-6C1E18F53069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F688F128-24A2-4E14-9C25-6C1E18F53069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -626,6 +644,9 @@ Global
 		{BD0EB3BB-3DC5-4B3F-9D1F-CA17061FD986} = {06B7A6F8-106C-4A06-82B4-787F59032D33}
 		{32334968-FAAE-45BF-A863-3DCE8EF28872} = {06B7A6F8-106C-4A06-82B4-787F59032D33}
 		{409D73E9-1838-4141-B60B-CCB461F41E01} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
+		{68AD13A4-AACF-4A9B-BDD3-893CE2248BF8} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
+		{2EDBABF5-0D8F-415A-95F7-484F8FC0FCAF} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
+		{F688F128-24A2-4E14-9C25-6C1E18F53069} = {8FAEBE4C-12B1-4DC6-8B2E-CEDDF6519569}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0BD9542-BB36-4302-9E6D-D851C4A2C6C7}
