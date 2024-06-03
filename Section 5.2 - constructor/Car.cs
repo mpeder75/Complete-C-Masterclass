@@ -2,6 +2,7 @@
 {
     internal class Car
     {
+        // variabler der beskriver karakteristika af den type class vil modellere 
         private string _name;
         private string _model;
         private int _hp;
@@ -17,6 +18,7 @@
             Drive();
         }        
         
+        // metoder der beskriver dents generelle opførsel 
         public void Drive()
         {
             Console.WriteLine($"{_name} {_model} is driving");
@@ -33,3 +35,4 @@
         }        
     }
 }
+
