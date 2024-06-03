@@ -6,28 +6,25 @@ using System.Threading.Tasks;
 
 namespace Section_9._1___Intro_inheritance
 {
-    // Radio er child class, ElectricalDevice er parent/base class
-    class Radio : ElectricalDevice
+    internal class Radio : ElectricalDevice
     {
-        // Her nedarves der properties fra base class
+        // Her nedarves variabler fra ElictricalDevice
+        
 
-        // constructor - nedarver, så proprty settes, IsOn = isON, Brand = brand;
-        public Radio(bool isOn, string brand) : base(isOn, brand) { }
-
-        // metoderne SwitchOn & SwitchOff nedarves fra base class
+        // Constructor + POLYMORFI - base class har i forvejen constructor der initializere variabler
+        // der genbruger vi dents funktionalitet oginitializere variabler gennem den
+        // med vha. : base()
+        public Radio(bool isOn, string brand) : base(isOn,brand) { }
 
         public void ListenRadio()
         {
-            if (IsOn)
+            if (IsOn) 
             {
-                Console.WriteLine("Listening to raDIO");
-            }
-            else
+                Console.WriteLine("Listening to radio");
+            } else
             {
-                Console.WriteLine("Radio is switched off, switch it on first");
+                Console.WriteLine("Radio switched ogff, need to switch radio on again");
             }
         }
     }
 }
-
-

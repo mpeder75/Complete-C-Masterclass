@@ -3,7 +3,7 @@
     internal class Car
     {
         public string _name;  // public, man kan sætte _name i program.cs
-        private int _hp;      // private, man kan IKKE sætte -hp i program.cs - kræver en set method
+        private int _hp;      // private, man kan IKKE sætte _hp i program.cs - kræver en set method
         private string _color;
 
         public Car()

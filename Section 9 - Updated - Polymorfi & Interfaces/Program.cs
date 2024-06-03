@@ -7,4 +7,3 @@ paymentService.ProcessOrderPayment(100.00m);
 
 // Polymorfi: Her bruges et interface til at oprettre et IPaymentProcessor
 IPaymentProcessor paypalProcessor = new PaypalProcessor();
-PaymentService pay

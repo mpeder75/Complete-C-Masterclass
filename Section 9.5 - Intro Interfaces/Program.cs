@@ -6,3 +6,9 @@ Ticket t2 = new Ticket(20);
 
 // Tjek om t2 har samme durationInHours som t1
 Console.WriteLine(t2.Equals(t1));
+
+
+// Tjek om t2 har forskellige durationInHours end t1
+Console.WriteLine(!(t2.Equals(t1)));
+
+

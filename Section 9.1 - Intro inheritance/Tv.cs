@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Section_9._1___Intro_inheritance
 {
-    public class Tv : ElectricalDevice
+    internal class Tv : ElectricalDevice
     {
-        
         public Tv(bool isOn, string brand) : base(isOn, brand) { }
 
         public void WatchTv()
         {
             if (IsOn)
             {
-                Console.WriteLine("We're watching TV");
-            } else
+                Console.WriteLine("Watching tc");
+            }
+            else
             {
-                Console.WriteLine("The TV it off, turn it on to watch");
+                Console.WriteLine("Tv switched ff, need to switch tv on again");
             }
         }
     }
